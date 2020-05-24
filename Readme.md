@@ -5,11 +5,11 @@ This work is used in paper <Multimodal Feature Attention for Cervical Lymph Node
 
 ### 使用说明 Usage
 
-1. 拷贝US_SSD至本地  copy US_SSD.
-2. 读取权重  set weight path
-3. 设置类别为2（背景+超声区） set classes to 2(bg + us region)
-4. 调用extract_us_region  call extract_us_region method
-5. 样例代码如detect.py的main函数中，假设路径为---./ a sample code is in detect.py, assume your path is ---./
+1. 拷贝US_SSD至本地 | copy US_SSD.
+2. 读取权重 | set weight path
+3. 设置类别为2（背景+超声区）| set classes to 2(bg + us region)
+4. 调用extract_us_region | call extract_us_region method
+5. 样例代码如detect.py的main函数中，假设路径为---./ |a sample code is in detect.py, assume your path is ---./
   ​							---data
   ​							---US_SSD
   ​							---yourcode.py
