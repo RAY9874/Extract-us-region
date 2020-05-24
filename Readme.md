@@ -15,7 +15,7 @@ This work is used in paper <Multimodal Feature Attention for Cervical Lymph Node
   
   ​							---US_SSD
   
-  ​							---yourcode.py（detection.py）
+  ​							---yourcode.py（detect.py）
 
 ### tips
 1.一般情况下，置信度>0.99，在我本地数据集中，13000例超声图，<0.99的有160个 
