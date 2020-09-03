@@ -21,7 +21,7 @@ class Conv2DNormalization(Layer):
         Add possibility to have one scale for all features.
     """
     def __init__(self, scale, **kwargs):
-        if K.image_dim_ordering() == 'tf':
+        if K.image_dim_ordering() == 'channels_last':
             self.axis = 3
         else:
             self.axis = 1
